@@ -45,7 +45,7 @@ public class MyAdapter extends BaseQuickAdapter<TestBean, BaseViewHolder> {
                 list.get(helper.getLayoutPosition()).price1 = s.toString();
             }
         });
-        EditText etPrice2 = helper.getView(R.id.price1);
+        EditText etPrice2 = helper.getView(R.id.price2);
         etPrice2.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
