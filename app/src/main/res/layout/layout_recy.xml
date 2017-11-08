@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context="com.little.easymv.ui.FavoriteFragment">
+
+
+<com.scwang.smartrefresh.layout.SmartRefreshLayout
+    android:id="@+id/refreshLayout"
+    app:srlEnableLoadmore="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyVi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+           />
+
+        <!--android:overScrollFooter="@android:color/transparent"-->
+        <!--android:overScrollHeader="@android:color/transparent"-->
+        <!--android:overScrollMode="never"-->
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</FrameLayout>

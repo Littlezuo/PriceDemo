@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cardview="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/cardview_margin"
+    android:layout_width="match_parent"
+    app:contentPadding="0dp"
+    app:cardCornerRadius="5dp"
+    app:cardPreventCornerOverlap="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--app:cardPreventCornerOverlap="false" 去掉padding-->
+
+<com.little.easymv.ui.view.SquareImagView
+    android:id="@+id/category_iv"
+    android:layout_width="match_parent"
+    android:scaleType="centerCrop"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <!--android:scaleType="fitCenter"-->
+
+
+</android.support.v7.widget.CardView>

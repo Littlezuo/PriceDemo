@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.CardView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+       <!---->
+        <!--&gt;-->
+    <ImageView
+        android:background="@drawable/shape_image"
+        android:padding="3px"
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="wrap_content"
+        android:minHeight="95dp"
+        android:layout_gravity="center"
+      />
+    <!--</FrameLayout>-->
+    <!--        android:minHeight="150dp"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"-->
+    <!--tools:targetApi="lollipop"-->
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        tools:text="猪标题"
+        android:textSize="12sp"/>
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:paddingTop="5dp"
+        tools:text="子标题"
+        android:textColor="@color/gray_dark"
+        android:textSize="10sp"
+       android:visibility="gone"/>
+</LinearLayout>
+
+<!--</android.support.v7.widget.CardView>-->

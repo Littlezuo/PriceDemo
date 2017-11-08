@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/white"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--<lib.lhh.fiv.library.FrescoImageView-->
+            <!--android:id="@+id/iv_icon"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:foreground="?android:attr/selectableItemBackgroundBorderless"-->
+            <!--bind:roundedCornerRadius="10dp"-->
+            <!--bind:viewAspectRatio="2.2"/>-->
+
+    <ImageView
+        android:foreground="?android:attr/selectableItemBackgroundBorderless"
+        android:id="@+id/iv_icon"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_icon"
+            android:layout_marginTop="5dp"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/iv_icon"
+            android:layout_marginTop="5dp"
+           />
+
+    </RelativeLayout>
